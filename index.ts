@@ -1,11 +1,11 @@
-import { MoteurDiesel } from "./Moteurs/Diesel/moteurDiesel";
-import { MoteurEssence } from "./Moteurs/Electrique/moteurEssence";
-import { MoteurElectrique } from "./Moteurs/Essence/moteurElectrique";
-import { Moteur } from "./Moteurs/moteur";
-import { Camion } from "./Vehicules/Camion/camion";
-import { Moto } from "./Vehicules/Moto/moto";
-import { Vehicule } from "./Vehicules/vehicule";
-import { Voiture } from "./Vehicules/Voiture/voiture";
+import { MoteurDiesel } from "./models/Moteurs/Diesel/moteurDiesel";
+import { MoteurEssence } from "./models/Moteurs/Electrique/moteurEssence";
+import { MoteurElectrique } from "./models/Moteurs/Essence/moteurElectrique";
+import { Moteur } from "./models/Moteurs/moteur";
+import { Camion } from "./models/Vehicules/Camion/camion";
+import { Moto } from "./models/Vehicules/Moto/moto";
+import { Vehicule } from "./models/Vehicules/vehicule";
+import { Voiture } from "./models/Vehicules/Voiture/voiture";
 
 console.log("Bienvenue chez NaGine, usine de moteurs tout genre et véhicules toutes marques!");
 

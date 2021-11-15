@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Vehicule = void 0;
+var stationEssence_1 = require("../StationEssence/stationEssence");
 var Vehicule = /** @class */ (function () {
     //Constructeur avec arguments
     function Vehicule(marque, couleur, prix, moteur) {
@@ -9,6 +10,12 @@ var Vehicule = /** @class */ (function () {
         this._prix = prix;
         this._moteur = moteur;
     }
+    Vehicule.prototype.accelerer = function () {
+        console.log("Grosse accèle !!");
+    };
+    Vehicule.prototype.passageStationEssence = function () {
+        console.log(stationEssence_1.StationEssence.plein);
+    };
     Object.defineProperty(Vehicule.prototype, "marque", {
         //Getters et setters
         get: function () {

@@ -7,6 +7,9 @@ var Moteur = /** @class */ (function () {
         this._vitesse = vitesse;
         this._km = km;
     }
+    Moteur.prototype.demarrage = function () {
+        console.log("Moteur allumé!");
+    };
     Object.defineProperty(Moteur.prototype, "vitesse", {
         //Getters et setters
         get: function () {
