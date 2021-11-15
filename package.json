@@ -1,0 +1,20 @@
+{
+  "name": "exercicetypescript",
+  "version": "1.0.0",
+  "description": "Exercice Typescript POO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "tsc && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElNaj/M2i-Exercice-Typescript.git"
+  },
+  "author": "Najim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElNaj/M2i-Exercice-Typescript/issues"
+  },
+  "homepage": "https://github.com/ElNaj/M2i-Exercice-Typescript#readme"
+}
